@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Todo-List</title>
+      <link rel="stylesheet" href="./css/all.css" />
+      <link rel="stylesheet" href="./css/styles.css" />
+   </head>
+   <body>
+      <header>
+         <h1>Todo List</h1>
+      </header>
+      <form>
+         <input type="text" class="todo-input" id="" />
+         <button class="todo-button" type="submit">
+            <i class="fas fa-plus-square"></i>
+         </button>
+         <div class="select">
+            <select name="todos" class="filter-todo" id="">
+               <option value="all">All</option>
+               <option value="completed">Completed</option>
+               <option value="uncompleted">Uncompleted</option>
+            </select>
+         </div>
+      </form>
+      <div class="todo-container">
+         <ul class="todo-list"></ul>
+      </div>
+
+      <script src="./js/main.js"></script>
+   </body>
+</html>
